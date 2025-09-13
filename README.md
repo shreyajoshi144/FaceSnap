@@ -1,5 +1,3 @@
-# FaceSnap
-A simple real time face recognition project using OpenCV in Python
 # FaceSnap  
 **Real-Time Face Recognition System using Python & OpenCV**
 
@@ -25,14 +23,13 @@ FaceSnap is a beginner-friendly yet powerful project that demonstrates **real-ti
 ---
 
 ## Project Structure
-FaceSnap/
-│── FaceSnap.py # Main menu (launcher)
-│── capture_faces.py # Capture images
-│── train_model.py # Train recognition model
-│── recognize_realtime.py # Real-time recognition
-│── search_history.py # View recognition history
-│── faces/ # Captured faces (dataset)
-│── model/ # Trained model files
-│── history/ # Logs of recognized/unknown persons
-│── requirements.txt # Dependencies
-│── README.md # Documentation
+- FaceSnap.py → Main menu (launcher for all modules)
+- capture_faces.py → Capture images for a new person
+- train_model.py → Train the recognition model
+- recognize_realtime.py → Real-time face recognition
+- search_history.py → View recognition logs/history
+- faces/ → Stores captured face images
+- model/ → Saves the trained model
+- history/ → Stores recognition/alert logs
+- requirements.txt → Project dependencies
+- README.md → Project documentation

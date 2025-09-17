@@ -1,26 +1,23 @@
 # FaceSnap  
 **Real-Time Face Recognition System using Python & OpenCV**
 
-FaceSnap is a beginner-friendly yet powerful project that demonstrates **real-time face detection and recognition** using OpenCV. It allows capturing faces, training a recognition model, and running live recognition with history logging.
+FaceSnap is a Python-based face recognition system that can identify people from images or a webcam feed. It uses OpenCV’s LBPH (Local Binary Patterns Histograms) face recognizer to train on a dataset of faces and predict identities in real time.
+This project demonstrates image processing, machine learning, and file handling using Python.
+--
+Features
 
----
+- Train a face recognition model from a dataset of labeled images.
+- Save the trained model and label mapping for later use.
+- Recognize faces from images or live webcam feed.
+- Handles multiple persons and labels automatically.
 
-## Features
-- **Capture Faces** – Collect face images for new users.  
-- **Train Model** – Train an LBPH (Local Binary Patterns Histogram) model.  
-- **Real-Time Recognition** – Recognize faces live using your webcam.  
-- **Search History** – View recognition logs and events.  
-- **New Person Alert** – Display alerts when an unknown person is detected.  
-- **Interactive Menu** – One main script (`FaceSnap.py`) to control everything.
+Technologies Used
 
----
-
-## Tech Stack
-- **Python 3**  
-- **OpenCV** (cv2)  
-- **NumPy**  
-
----
+- Python 3
+- OpenCV (cv2)
+- NumPy
+- LBPH Face Recognizer
+--
 
 ## Project Structure
 - FaceSnap.py → Main menu (launcher for all modules)

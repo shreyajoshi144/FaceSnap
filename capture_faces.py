@@ -37,3 +37,8 @@ def capture_faces(person_name, dataset_path="dataset"):
     cap.release()
     cv2.destroyAllWindows()
     print(f"[INFO] Saved {count} face images for {person_name}.")
+
+# ✅ Run directly if called
+if __name__ == "__main__":
+    name = input("Enter the name of the person: ")
+    capture_faces(name)

@@ -1,7 +1,3 @@
-Here’s a **clean, professional `README.md`** you can directly copy into your repo. It’s beginner-friendly, clear, and still impressive for reviewers.
-
----
-
 # FaceSnap
 
 ### Real-Time Face Recognition System
@@ -121,4 +117,5 @@ FaceSnap/
 * Add face mask or emotion detection
 * Export logs to CSV or database
 * Build a simple GUI or web interface
+
 
